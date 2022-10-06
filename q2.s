@@ -1,11 +1,11 @@
 .global gcd
 .text
 
-# every function in this question is repeated as I have taken 2 different cases:
+# every function in this question is repeated for 2 different cases:
 # a) when M>N
 # b) when M<N
 
-# hence loop1, loop2 , decre1, decre2 serve the same purpose, just correspond to different registers
+# hence the functions loop1, loop2, decre1, decre2 serve the same purpose, but correspond to different registers
 
 gcd:
 cmp $0, %rdi
